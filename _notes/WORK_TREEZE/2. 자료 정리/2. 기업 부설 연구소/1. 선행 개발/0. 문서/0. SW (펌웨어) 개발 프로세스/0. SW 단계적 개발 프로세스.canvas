@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"c5818f0b4a289404","type":"group","x":-1260,"y":-540,"width":1100,"height":1240,"color":"6","label":"SW 개발 프로세스"},
+		{"id":"c56b5108350a3c5e","type":"file","file":"2. WORK_TREEZE/2. 자료 정리/2. 기업 부설 연구소/1. 선행 개발/0. 문서/0. SW (펌웨어) 개발 프로세스/1. 요구 분석.md","x":-1200,"y":-500,"width":400,"height":310},
+		{"id":"8e50f478964aec1a","type":"file","file":"2. WORK_TREEZE/2. 자료 정리/2. 기업 부설 연구소/1. 선행 개발/0. 문서/0. SW (펌웨어) 개발 프로세스/5. 테스트 및 프로젝트 완료.md","x":-1200,"y":320,"width":400,"height":340},
+		{"id":"db9baa9d850c36b0","type":"file","file":"2. WORK_TREEZE/2. 자료 정리/2. 기업 부설 연구소/1. 선행 개발/0. 문서/0. SW (펌웨어) 개발 프로세스/2. 설계.md","x":-620,"y":-500,"width":400,"height":310,"color":"3"},
+		{"id":"248a9fec988bd2be","type":"file","file":"2. WORK_TREEZE/2. 자료 정리/2. 기업 부설 연구소/1. 선행 개발/0. 문서/0. SW (펌웨어) 개발 프로세스/4. 평가.md","x":-1200,"y":-100,"width":400,"height":320},
+		{"id":"4193962e11b5ae33","type":"file","file":"2. WORK_TREEZE/2. 자료 정리/2. 기업 부설 연구소/1. 선행 개발/0. 문서/0. SW (펌웨어) 개발 프로세스/3. 구현(코딩).md","x":-620,"y":-100,"width":400,"height":320}
+	],
+	"edges":[
+		{"id":"7547aafc5c900a7e","fromNode":"c56b5108350a3c5e","fromSide":"right","toNode":"db9baa9d850c36b0","toSide":"left"},
+		{"id":"a790c195222efef9","fromNode":"db9baa9d850c36b0","fromSide":"bottom","toNode":"4193962e11b5ae33","toSide":"top"},
+		{"id":"02f96fbafa588ae9","fromNode":"4193962e11b5ae33","fromSide":"left","toNode":"248a9fec988bd2be","toSide":"right"},
+		{"id":"a5963e4fb46587bd","fromNode":"248a9fec988bd2be","fromSide":"bottom","toNode":"8e50f478964aec1a","toSide":"top"},
+		{"id":"3ee2c2ebbfa2d6cd","fromNode":"248a9fec988bd2be","fromSide":"left","toNode":"c56b5108350a3c5e","toSide":"left"}
+	]
+}
